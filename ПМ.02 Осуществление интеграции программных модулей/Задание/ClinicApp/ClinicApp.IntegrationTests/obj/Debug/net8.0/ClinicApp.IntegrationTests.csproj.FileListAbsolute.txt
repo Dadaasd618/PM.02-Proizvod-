@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\bin\Debug\net8.0\ClinicApp.IntegrationTests.exe
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\bin\Debug\net8.0\ClinicApp.IntegrationTests.deps.json
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\bin\Debug\net8.0\ClinicApp.IntegrationTests.runtimeconfig.json
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\bin\Debug\net8.0\ClinicApp.IntegrationTests.dll
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\bin\Debug\net8.0\ClinicApp.IntegrationTests.pdb
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.AssemblyInfo.cs
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.dll
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\refint\ClinicApp.IntegrationTests.dll
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.pdb
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ClinicApp.IntegrationTests.genruntimeconfig.cache
+C:\Users\User\source\repos\ClinicApp\ClinicApp.IntegrationTests\obj\Debug\net8.0\ref\ClinicApp.IntegrationTests.dll
