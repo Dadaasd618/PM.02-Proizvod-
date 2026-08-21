@@ -1,9 +1,0 @@
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.csproj.AssemblyReference.cache
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.AssemblyInfoInputs.cache
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.AssemblyInfo.cs
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.gentestingplatformentrypointinputcache.cache
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\ClinicApp.Tests.genautoregisteredextensionsinputcache.cache
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\AutoRegisteredExtensions.cs
-C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\obj\Debug\net8.0\TestPlatformEntryPoint.cs
