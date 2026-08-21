@@ -1,0 +1,16 @@
+2026-08-21T11:39:32.2333851+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2026-08-21T11:39:32.2488372+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-08-21T11:39:32.2497086+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-08-21T11:39:32.2497123+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 11:39:32.209
+2026-08-21T11:39:32.2510148+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 15292
+2026-08-21T11:39:32.2513296+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.26
+2026-08-21T11:39:32.2513427+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.26\System.Private.CoreLib.dll
+2026-08-21T11:39:32.2513519+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-08-21T11:39:32.2513571+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\bin\Debug\net8.0-windows\ClinicApp.Tests.dll
+2026-08-21T11:39:32.2515044+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\bin\Debug\net8.0-windows\Log --results-directory C:\Users\User\source\repos\ClinicApp\TestResults --client-port 52981'
+2026-08-21T11:39:32.2526893+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-08-21T11:39:32.2830560+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-08-21T11:39:32.2863776+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\bin\Debug\net8.0-windows\ClinicApp.Tests.testconfig.json' not found.
+2026-08-21T11:39:32.2873604+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2026-08-21T11:39:32.4371737+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.6.4' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-08-21T11:39:32.5219307+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Включена параллелизация тестов для C:\Users\User\source\repos\ClinicApp\ClinicApp.Tests\bin\Debug\net8.0-windows\ClinicApp.Tests.dll (рабочие роли: 12, область: MethodLevel)
