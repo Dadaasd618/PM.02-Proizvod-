@@ -1,0 +1,72 @@
+﻿<Window x:Class="ClinicApp.Windows.PatientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Пациент" Height="650" Width="1000" 
+        WindowStartupLocation="CenterScreen" Background="#F5F6FA">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#2C3E50" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Content="⬅ Выйти" Width="100" Height="35" Click="Logout_Click" 
+                        Background="#E74C3C" Foreground="White" FontWeight="Bold" FontSize="13"
+                        BorderThickness="0" Cursor="Hand"/>
+
+                <StackPanel Grid.Column="1" HorizontalAlignment="Center">
+                    <TextBlock x:Name="TitleText" Text="Панель пациента" FontSize="22" 
+                               FontWeight="Bold" Foreground="White"/>
+                    <TextBlock x:Name="PatientInfoText" Foreground="#BDC3C7" FontSize="12" 
+                               HorizontalAlignment="Center" Margin="0,2,0,0"/>
+                </StackPanel>
+
+                <Button Content="🔄 Обновить" Width="100" Height="35" Click="Refresh_Click" 
+                        Background="#3498DB" Foreground="White" FontWeight="Bold" FontSize="13"
+                        BorderThickness="0" Cursor="Hand" Grid.Column="2"/>
+            </Grid>
+        </Border>
+
+        <WrapPanel Grid.Row="1" Margin="15,15,15,10" Background="White"  
+                   HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="📋 Мои услуги" Width="140" Height="40" Click="LoadMyServices_Click" 
+                    Background="#3498DB" Foreground="White" FontWeight="Bold" FontSize="14"
+                    BorderThickness="0" Cursor="Hand" Margin="5"/>
+            <Button Content="📝 Записаться" Width="140" Height="40" Click="BookAppointment_Click" 
+                    Background="#27AE60" Foreground="White" FontWeight="Bold" FontSize="14"
+                    BorderThickness="0" Cursor="Hand" Margin="5"/>
+            <Button Content="📊 Все услуги" Width="140" Height="40" Click="LoadAllServices_Click" 
+                    Background="#F39C12" Foreground="White" FontWeight="Bold" FontSize="14"
+                    BorderThickness="0" Cursor="Hand" Margin="5"/>
+            <Button Content="📈 Статистика" Width="140" Height="40" Click="LoadStatistics_Click" 
+                    Background="#8E44AD" Foreground="White" FontWeight="Bold" FontSize="14"
+                    BorderThickness="0" Cursor="Hand" Margin="5"/>
+        </WrapPanel>
+
+        <DataGrid Grid.Row="2" x:Name="DataGrid" AutoGenerateColumns="True" 
+                  Margin="15,0,15,15" Background="White" IsReadOnly="True"
+                  SelectionMode="Single" SelectionUnit="FullRow"
+                  FontSize="13" AlternatingRowBackground="#F8F9FA"
+                  BorderBrush="#D5D8DC" BorderThickness="1"/>
+
+        <StatusBar Grid.Row="3" Background="#2C3E50">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Foreground="White" Text="Готов..." />
+            </StatusBarItem>
+            <Separator Style="{StaticResource {x:Static StatusBar.SeparatorStyleKey}}"/>
+            <StatusBarItem>
+                <TextBlock x:Name="CountText" Foreground="#BDC3C7" Text="Записей: 0" />
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
